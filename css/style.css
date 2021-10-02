@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --main-bg-color:#1b8fee;
+}
+header{
+    
+    background-color: var(--main-bg-color);
+}
+header nav{
+    display: flex;
+
+}
+header nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav div img{
+    width: 100px;
+    margin: 0 10px;
+}
+header nav ul{
+    height: 9vh;
+    display: flex;
+    padding: 5px;
+}
+header nav ul li {
+    padding: 0 50px;
+    list-style: none;
+    text-decoration: none;
+    padding: 7px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+header nav ul li a:hover{
+    font-weight: bold;
+    color: rgb(228, 20, 20);}
+    .search-icon{
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 300px;
+    }
+.search{
+    display: flex;
+    justify-items: center;
+}
+.search-icon-img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 222px;
+}
+.search-icon-img:hover{
+    background-color: hsl(0, 24%, 82%);
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+.search input{
+    width: 400px;
+    height: 26px;
+    border-radius: 5px;
+    margin: 0 30px 0 50px;
+    padding: 0 20px;
+}
+.bt{
+    padding: 4px 25px;
+    margin: 0 50px;
+color: white;
+background-color: #00c3ff;
+border: 2px solid aqua;
+border-radius: 9px;
+cursor: pointer;
+}
+.bt:hover{
+    background-color: violet;
+}
+.slider{
+    width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+}
+.slider-img{
+    margin: 10px;
+}
+.card{
+    width: 85vw;
+    margin: 10px auto;
+    max-height: 35vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(247, 238, 238, 0.685);
+    border: 3px solid aqua;
+}
+.cards-h2{
+    margin: 10px -5px;
+    padding: 0 10px;
+}
+.h2{
+    width: 85vw;
+    height: 50px;
+    background-color: rgba(247, 238, 238, 0.685);
+    display: flex;
+    justify-items: center;
+    margin: 7px auto;
+    border: 3px solid aqua;
+}
+.cards-bt{
+    margin: 6px 40px 6px auto;
+    width: 75px;
+    border-radius: 13px;
+    border: 2px solid #00cfff;
+    cursor: pointer;
+}
+.cards-bt:hover
+{
+background-color: rgb(231, 179, 179);
+}
+.atems{
+    padding: 10px;
+}
+.card-a{
+text-decoration: none;
+
+}
+.atems:hover{
+    background-color: rgb(34, 189, 189);
+}
+.container{
+    min-height: calc(100vh - 10.5vh - 12vh);
+}
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
